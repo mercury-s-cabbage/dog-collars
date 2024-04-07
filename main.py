@@ -1,4 +1,9 @@
 from fastapi import FastAPI
+from schemas import User
 
-app = FastAPI
-a = 2244
+app = FastAPI()
+
+@app.get("/register")
+def register():
+    user1 = User(nickname="Lena", password="123")
+    return {"user":user1}
