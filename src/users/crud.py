@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-import src.users.models   as models
+import src.users.models as models
 import src.users.schemas as schemas
 import uuid
 
@@ -23,8 +23,8 @@ def create_user(db: Session,
 def create_user_session(db: Session,
                         id: int,
                         token: str
-                        ) -> models.Users_sessions:
-    db_user_session = models.Users_sessions(
+                        ) -> models.UsersSessions:
+    db_user_session = models.UsersSessions(
         id=id,
         token=token
     )

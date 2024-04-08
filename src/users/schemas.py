@@ -1,15 +1,15 @@
 from pydantic import BaseModel
-import uuid
-#FastAPI objects
+#   FastAPI objects
+
+
 class User(BaseModel):
     nickname: str
     password: str
     number: str
     superuser: bool
 
-class User_auth(BaseModel):
+
+class UserAuth(BaseModel):
     number: str
     password: str
-
-
 

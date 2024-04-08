@@ -12,13 +12,11 @@ class Users(BaseDBModel):   # string of users' table
     is_active = Column(Boolean, default=True)
     is_superuser = Column(Boolean, default=False)
 
-class Users_sessions(BaseDBModel):
-    __tablename__ = "sessions"
 
+class UsersSessions(BaseDBModel):
+    __tablename__ = "sessions"
     id = Column(Integer, primary_key=True)
     token = Column(String, unique=True, index=False)
-
-
 
 
 BaseDBModel.metadata.create_all(bind=engine)
