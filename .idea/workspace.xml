@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56dcf0a6-6581-4838-8ded-650a2d559310" name="Changes" comment="before async">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collars.db" beforeDir="false" afterPath="$PROJECT_DIR$/collars.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collars/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collars/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collars/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collars/community_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/community/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +66,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Dogs\src\community" />
+      <recent name="C:\Users\User\PycharmProjects\Dogs\src\users" />
       <recent name="C:\Users\User\PycharmProjects\Dogs\src" />
       <recent name="C:\Users\User\PycharmProjects\Dogs" />
-      <recent name="C:\Users\User\PycharmProjects\Dogs\src\users" />
     </key>
   </component>
   <component name="RunManager">
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712586181438</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="before async">
+      <option name="closed" value="true" />
+      <created>1712594774924</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712594774924</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
