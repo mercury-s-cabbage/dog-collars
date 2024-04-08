@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56dcf0a6-6581-4838-8ded-650a2d559310" name="Changes" comment="before async">
-      <change afterPath="$PROJECT_DIR$/src/collars/crud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collars/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collars.db" beforeDir="false" afterPath="$PROJECT_DIR$/collars.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collars/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collars/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collars/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collars/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collars/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/schemas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712581517017</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="before async">
+      <option name="closed" value="true" />
+      <created>1712586169068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712586169068</updated>
+    </task>
+    <task id="LOCAL-00013" summary="before async">
+      <option name="closed" value="true" />
+      <created>1712586181438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712586181438</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
