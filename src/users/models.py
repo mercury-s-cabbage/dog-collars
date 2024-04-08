@@ -1,4 +1,4 @@
-from sqlalchemy import (Integer, String, Bool,Column)
+from sqlalchemy import (Integer, String, Boolean, Column)
 from src.database import BaseDBModel
 
 
@@ -9,5 +9,5 @@ class Users(BaseDBModel):   # string of users' table
     name = Column(String, unique=False, index=False)
     number = Column(String, unique=True, index=False)
     hash_password = Column(String, unique=False, index=False)
-    is_active = Column(Bool, default=True)
+    is_active = Column(Boolean, default=True)
 

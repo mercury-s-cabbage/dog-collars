@@ -1,17 +1,17 @@
 from sqlalchemy.orm import Session
-import models
-from src.users import schemas
+from src.users.models import Users
+from src.users.schemas import User
 
 
 def create_user(db: Session,
-                user: schemas.UserCreate
-                ) -> models.User:
+                user: User
+                ) -> Users:
     fake_hash_password = user.password[::-1]
-    db_user = models.User(
+    db_user = Users(
         name=user.name,
         email=user.email,
         hash_password=fake_hash_password,
-        is_active = True
+        is_active=True
     )
     db.add(db_user)
     db.commit()
