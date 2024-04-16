@@ -42,14 +42,14 @@ def my_collars(token):
     user_id = access.id
     return crud.collar_group(DBSession, user_id)
 
-@router.post("/delete_collar")
+@router.post("/unactivate_collar")
 def delete_collar(collar_id, token):
     access = DBSession.query(UsersSessions).filter_by(token=token).one()
     is_admin = DBSession.query(Users).filter_by(id=access.id).one()
     is_admin = is_admin.is_superuser
 
     if (is_admin):
-        crud.delete_collar(DBSession, collar_id)
+        crud.unactivate_collar(DBSession, collar_id)
         return {'access': 'yes'}
     else:
         return {'access': 'no'}

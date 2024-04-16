@@ -39,11 +39,19 @@ def remove_collar(db: Session,
 
 def collar_group(db: Session, user_id: int):
     db_pets = [x.collar_id for x in db.query(models.Owners).filter_by(user_id=user_id).distinct()]
+    is_active = []
+    for i in db_pets:
+        collar_n = db.query(models.Collars).filter_by(id=i).one()
+        if (collar_n.is_active == True):
+            is_active.append(i)
     return {"owner_id": user_id,
-            "collars_id": db_pets}
+            "collars_id": is_active}
 
-def delete_collar(db: Session, collar_id: int):
-    db_collar_user = db.query(models.Collars).filter_by(id=collar_id).one()
-    db.delete(db_collar_user)
+def unactivate_collar(db: Session, collar_id: int):
+    db_collar_active = db.query(models.Collars).filter_by(id=collar_id).one()
+    db_collar_active.is_active = False
     db.commit()
-    return {}
+    db.refresh(db_collar_active)
+    return {"active_status": False}
+
+
