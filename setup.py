@@ -18,4 +18,8 @@ setup(
         ],
    },
    python_requires='>=3',
+<<<<<<< HEAD
 )
+=======
+)
+>>>>>>> origin/master
