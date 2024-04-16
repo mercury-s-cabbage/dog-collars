@@ -7,7 +7,7 @@ setup(
    license='MIT',
    author='Lena Filipenko',
    author_email='lenaphilip@mail.ru',
-   url='https://github.com/mercury-s-cabbage/dog-collars',
+   url='https://github.com/mercury-s-cabbage/dog-collars/tree/master',
    packages=['src'],
    install_requires=[],
    extras_require={
