@@ -1,0 +1,30 @@
+Index: setup.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/setup.py b/setup.py
+new file mode 100644
+--- /dev/null	(date 1713233172606)
++++ b/setup.py	(date 1713233172606)
+@@ -0,0 +1,20 @@
++from setuptools import setup
++
++setup(
++   name='dog-collars',
++   version='1.0',
++   description='Trying to make setup for good marks)',
++   license='MIT',
++   author='Lena Filipenko',
++   author_email='lenaphilip@mail.ru',
++   url='https://github.com/mercury-s-cabbage/dog-collars/tree/master',
++   packages=['src'],
++   install_requires=[],
++   extras_require={
++        'test': [
++            'pytest',
++            'coverage',
++        ],
++   },
++   python_requires='>=3',
++)
