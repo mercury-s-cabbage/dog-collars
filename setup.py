@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-   name='first_setup',
+   name='dog-collars',
    version='1.0',
    description='Trying to make setup for good marks)',
    license='MIT',
