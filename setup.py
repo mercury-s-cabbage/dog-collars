@@ -9,8 +9,7 @@ setup(
    author_email='lenaphilip@mail.ru',
    url='https://github.com/mercury-s-cabbage/dog-collars',
    packages=['src'],
-   install_requires=['SQLAlchemy~=2.0.29', 'fastapi~=0.110.1', 'pydantic~=2.6.4', 'pip~=24.0',
-    'cryptography~=42.0.5'],
+   install_requires=[],
    extras_require={
         'test': [
             'pytest',
