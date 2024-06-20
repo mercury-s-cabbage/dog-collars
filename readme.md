@@ -1,6 +1,6 @@
 Последний коммит хранится в ветке master
 Приложение позволяет пользователям узнавать информацию о своем питомце и обмениваться ей между собой.
-![fgb](https://drive.google.com/file/d/1ccF2m9qk55W5cU35HN8JWhvvj8k0Ixh4/view?usp=sharing)
+[fgb](https://drive.google.com/file/d/1ccF2m9qk55W5cU35HN8JWhvvj8k0Ixh4/view?usp=sharing)
 Для запуска приложения установите зависимости:
 pip install requirements.txt
 Запросы для пользователя:
